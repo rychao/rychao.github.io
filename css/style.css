@@ -1,0 +1,31 @@
+/* Styles */
+body { font-family: Lucida Grande, sans-serif; margin: 0 auto; line-height: 1.8em; padding: 12px; box-sizing: border-box; color: #fff; overflow: auto;
+  background: url(./background.png) no-repeat center center fixed ; /*background image*/
+  background-size: cover;
+}
+body, html { height: 100% ;}
+
+a { color: #fff; text-decoration: none; border-bottom: 1px solid #CCFF26;}	
+a:hover { border-bottom: 1px solid #CCFF26; color: #222;}	
+p { font-weight: 200; font-size: 20px;}
+
+.name { font-family: Lucida Grande, sans-serif; font-size: 50px; font-weight: 900; padding-bottom: 10px;}	
+
+.container { margin: 0 auto; padding: 100px 12px 0px 300px; overflow: auto;}	
+
+.meta {text-transform: uppercase; font-family: Lucida Grande, sans-serif; font-size: 11px; letter-spacing: .15em;}
+.meta a:hover {border-bottom: 1px solid #CCFF26; color: #fff;}	
+
+.inline-list {list-style: none; margin: 0; padding: 0;}	
+.inline-list li {display: inline-block;}	
+
+/* Icons */
+.fa { padding: 15px; font-size: 30px; width: 30px; text-align: center; text-decoration: none; border-radius: 50%; }	
+.fa:hover { opacity: 0.7;}	
+.fa-blue { background: #007bb5; color: white;}
+.fa-black { background: #000000; color: white;}	
+
+/* Icon Text Box */
+footer .inline-list li {padding-right: 40px; padding-top: 10px; padding-bottom:10px; }	
+footer { position:absolute; bottom:20px; left:0px; width:100%; color:#000; background:#fff; opacity: 0.5; text-align: right;}
+
